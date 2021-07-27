@@ -12,7 +12,6 @@ class ProductPage
     }
     addToCart()
     {
-        cy.get("[data-test=add-to-cart-sauce-labs-backpack]").click()
     }
 }
 export default ProductPage
